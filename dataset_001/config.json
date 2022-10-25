@@ -1,0 +1,52 @@
+{
+    "image_parameters": {
+        "imageSize": [256,256],
+        "ccdImageSize": [3648,5472],
+        "imageNum": 289,
+        "bitDepth": 8
+  },
+    "camera_parameters": {
+        "subPixelSize": 1.186e-06,
+        "CCDsize": 2.4e-6,
+        "pixel_ratio": 4
+  },
+    "fpm_parameters": {
+        "LEDx": 17,
+        "LEDy": 17,
+        "LEDgap": 2.5,
+        "LEDheight": 61.5,
+        "wavelength": 5.33e-7,
+        "systemMag": 2.0232,
+        "objectiveNA": 0.1,
+        "maxNA": 0.7604,
+        "n_glass": 1.5
+  },
+    "uconn_parameters": {
+        "p": 0.7,
+        "pupil": 1,
+        "alpha": 1,
+        "astigx": 0,
+        "astigy": 0,
+        "roiX_pixel": 1645,
+        "roiY_pixel": 2529,
+        "roiSize": 256
+  },
+    "runtime_parameters": {
+        "method": "ePIE",
+        "showRecon": "False",
+        "saveRecon": "True",
+        "positionCorrection": "False",
+        "threshold": "iterations",
+        "maxMSE": 1.0,
+        "maxIterations": 1,
+        "brightfield_images": [0,8],
+        "darkfield_images": [9,288],
+        "tolerance": 0.05
+  },
+    "output_parameters": {
+        "outputKxKy": "KxKy.json",
+        "outputIntensity": "Intensity.tiff",
+        "outputPhase": "Phase.tiff"
+  }
+
+}
